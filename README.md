@@ -7,3 +7,20 @@ If and when the project succeeds and becomes usable, I will begin distributing t
 # Phantasm AntiCheat
 
 Born out of the dire need to combat neverending waves of cheaters proactively, rather than reactively, Phantasm aims to stop exploitation of game flaws as well as cheating - including inventory/item cheats, crash exploits, lag machines, projectile alterring and other unwanted activities - in their tracks!
+
+# Implementation status
+
+## Tile cheats: 
+* Crash exploits: Complete
+* Unobtainable and nonexistent tiles: Complete
+* Explosives: Complete
+* Tool checks: In progress
+* Range hacks: In progress
+
+## Movement cheats:
+
+* Untouched. In plans.
+
+## Item cheats: 
+
+* Waiting on other modules, currently only very basic checks.
