@@ -20,7 +20,7 @@ Don't message me asking for early builds or about methods I'm using.
 
 #### Movement cheats:
 
-* Untouched. In plans.
+* Teleportation exploits: Complete
 
 #### Item cheats: 
 
