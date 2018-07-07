@@ -9,6 +9,8 @@ This repository will serve as a bug tracker for servers participating in the bet
 If and when the project succeeds and becomes usable, I will begin distributing the plugin to trusted parties for more open testing.
 Don't message me asking for early builds or about methods I'm using.
 
+## The project is currently on hiatus until [Frostspark](https://github.com/Frostspark/) projects become functional. TShock's functionality (or lack thereof) effectively blocks Phantasm development.
+
 ### It's worth noting that this project isn't my main focus and thus is developed as I find issues - I'm not rushing anything as I want this to work in all environments and under various network conditions.
 
 ## Implementation status
