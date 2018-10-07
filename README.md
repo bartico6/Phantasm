@@ -1,31 +1,34 @@
 # Phantasm AntiCheat
 
-Born out of the dire need to combat neverending waves of cheaters proactively, rather than reactively, Phantasm aims to stop exploitation of game flaws as well as cheating - including inventory/item cheats, crash exploits, lag machines, projectile alterring and other unwanted activities - in their tracks!
+Phantasm is a Terraria anti-cheat plugin that aims to stop all forms of cheating (and other harmful activity such as crash exploits and lag machines) in their tracks.
+Phantasm works entirely at network level, and as such is prone to breaking when game versions change.
 
 ### Disclaimer
 
-For the time being, Phantasm is nowhere near usable.
-This repository will serve as a bug tracker for servers participating in the beta (once the plugin becomes stable and usable).
-If and when the project succeeds and becomes usable, I will begin distributing the plugin to trusted parties for more open testing.
-Don't message me asking for early builds or about methods I'm using.
-
-## The project is currently on hiatus until [Frostspark](https://github.com/Frostspark/) projects become functional. TShock's functionality (or lack thereof) effectively blocks Phantasm development.
-
-### It's worth noting that this project isn't my main focus and thus is developed as I find issues - I'm not rushing anything as I want this to work in all environments and under various network conditions.
+This repository contains no code. Phantasm is currently a private plugin in development.
+The goal of this repository is to serve as an issue tracker for servers that have access to the plugin, as well as a progress tracker for myself.
+Do not message me for early builds. If you want to see it in action - play on one of the servers that runs the plugin. I'll include a list eventually, when the plugin is stable & in active use.
 
 ## Implementation status
 
-#### Tile cheats: 
+### Generic:
 * Crash exploits: Complete
+* Impersonation: Complete
+
+#### Tile: 
 * Unobtainable and nonexistent tiles: Complete
+* Range hacks: Complete
+* Tool checks: Queued
+
+### Projectile:
+* Spam prevention: Complete
 * Explosives: Complete
-* Tool checks: In progress
-* Range hacks: In progress
+* Spawn hacks: In progress, largely done.
+* Damage hacks: Queued
+* Projectile origin (offsets): Queued
 
-#### Movement cheats:
-
+#### Movement:
 * Teleportation exploits: Complete
 
-#### Item cheats: 
-
-* Waiting on other modules, currently only very basic checks.
+### Inventory:
+* Queued
