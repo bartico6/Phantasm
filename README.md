@@ -1,13 +1,18 @@
 # Phantasm AntiCheat
 
-Phantasm is a Terraria anti-cheat plugin that aims to stop all forms of cheating (and other harmful activity such as crash exploits and lag machines) in their tracks.
-Phantasm works entirely at network level, and as such is prone to breaking when game versions change.
+Phantasm is a Terraria Anti-Cheat plugin that aims to stop all forms of cheating (and other harmful activity such as crash exploits and lag machines) in their tracks.
 
 ### Disclaimer
 
 This repository contains no code. Phantasm is currently a private plugin in development.
 The goal of this repository is to serve as an issue tracker for servers that have access to the plugin, as well as a progress tracker for myself.
-Do not message me for early builds. If you want to see it in action - play on one of the servers that runs the plugin. I'll include a list eventually, when the plugin is stable & in active use.
+
+*Don't ask for a copy, you ain't getting one.*
+
+### How to make your plugin compatible with Phantasm
+
+* Ensure your NetGetData hooks return out of callbacks that have args.Handled = true. You must **NEVER** un-handle already handled NetGetData hooks, as this will cause duplication glitches and other unintended behavior.
+* Never register your handlers with border priority values (`int.MinValue` and `int.MaxValue`) - those are "reserved" by Phantasm, and required to function properly. Use `int.MinValue + 1` or `int.MaxValue - 1` instead.
 
 ## Implementation status
 
@@ -15,7 +20,7 @@ Do not message me for early builds. If you want to see it in action - play on on
 * Crash exploits: Complete
 * Impersonation: Complete
 
-#### Tile: 
+### Tile: 
 * Unobtainable and nonexistent tiles: Complete
 * Range hacks: Complete
 * Tool checks: Queued
@@ -27,8 +32,10 @@ Do not message me for early builds. If you want to see it in action - play on on
 * Damage hacks: Queued
 * Projectile origin (offsets): Queued
 
-#### Movement:
+### Movement:
 * Teleportation exploits: Complete
 
 ### Inventory:
-* Queued
+* Inventory operations: Complete
+* Item pickups/drops: In progress
+* NPC interactions: In progress
