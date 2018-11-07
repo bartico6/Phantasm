@@ -13,7 +13,7 @@ If enabled in the configuration, Phantasm will also **return** items from cancel
 ### Disclaimer
 
 This repository contains no code. Phantasm is currently a private plugin in development.
-The goal of this repository is to serve as an issue tracker for servers that have access to the plugin, as an advertisement for anyone interested, as well as a progress tracker for myself.
+The goal of this repository is to serve as an issue tracker for servers that have access to the plugin, as an advertisement of my services for anyone interested, as well as a progress tracker for myself.
 
 *Don't ask for a copy, you ain't getting one.*
 
