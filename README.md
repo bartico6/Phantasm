@@ -1,5 +1,7 @@
 # Phantasm AntiCheat
 
+#####Last update: 3rd June 2019
+
 Phantasm is a Terraria Anti-Cheat plugin that aims to stop all forms of cheating (and other harmful activity such as crash exploits and lag machines) in their tracks.
 
 Phantasm is unique amongst other anti-cheat projects in that it is **completely** lag-aware and lag-tolerant (may cause harmless warnings for lagging players but will __***never***__ ban an innocent) and it **blocks** detected cheats rather than just report them.
@@ -30,22 +32,25 @@ The goal of this repository is to serve as an issue tracker for servers that hav
 
 ### NPCs:
 * Instakill all: Blocked
+* Invalid buff/debuff application: Queued
+* Teleportation: Queued
 
 ### Tile: 
 * Unobtainable and nonexistent tiles: Blocked
 * Range hacks: Blocked
 * Tool checks: Queued
 
-### Projectile:
+### Projectiles:
 * Spam: Blocked
 * Spawn hacks: In progress, largely done.
 * Damage hacks: Queued
 * Projectile origin (offsets): Queued
 
 ### Movement:
-* Teleportation exploits: Blocked
+* Teleportation exploits: In progress (rewriting)
 
-### Inventory:
-* Inventory hacks: Blocked
-* Item pickup/drop hacks: Blocked
-* Return canceled events: Queued
+### Items:
+* Inventory editing: Blocked
+* Drophacks (spawn items from thin air): Blocked
+* Vacuum (pick up items across the map): In progress
+* Shop coin bypass: Blocked
