@@ -1,6 +1,6 @@
 # Phantasm AntiCheat
 
-###Last update: 3rd June 2019
+##### Last update: 3rd June 2019
 
 Phantasm is a Terraria Anti-Cheat plugin that aims to stop all forms of cheating (and other harmful activity such as crash exploits and lag machines) in their tracks.
 
