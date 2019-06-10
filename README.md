@@ -1,6 +1,6 @@
 # Phantasm AntiCheat
 
-##### Last update: June 3rd 2019
+##### Last update: June 10th 2019
 
 Phantasm is a Terraria Anti-Cheat plugin that aims to stop all forms of cheating (and other harmful activity such as crash exploits and lag machines) in their tracks.
 
@@ -24,7 +24,9 @@ The goal of this repository is to serve as an issue tracker for servers that hav
 * Ensure your NetGetData hooks return out of callbacks that have args.Handled = true. You must **NEVER** un-handle already handled NetGetData hooks, as this will render the anti-cheat completely useless.
 * Never register your handlers with border priority values (`int.MinValue` and `int.MaxValue`) - those are "reserved" by Phantasm, and required to function properly. Use `int.MinValue + 1` or `int.MaxValue - 1` instead.
 
-## Implementation status
+# Implementation status
+
+## The Anticheat's development is currently blocked by tShock. This is because there is no feasible way to get my code (asynchronous cheat checks) to work with other plugins due to how the plugin ecosystem works (nethooks). I'm waiting for tShock's move on that front. If that doesn't happen in a reasonable timeframe, Phantasm will have an external plugin dependency and require modding tShock to work.
 
 ### Generic:
 * Impersonation: Blocked
