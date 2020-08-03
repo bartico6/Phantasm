@@ -19,6 +19,8 @@ Phantasm also, optionally, doubles as a **gameplay enhancer**:
 This repository contains no code. Phantasm is currently a private plugin.
 The goal of this repository is to serve as an issue tracker for individuals that have access to the plugin, as an advertisement of my services for anyone interested, as well as a progress tracker for myself and said involved parties.
 
+Progress on the anticheat can be seen on the discord server I operate for my upcoming dedicated server [here](https://terraria.gg/discord).
+
 *Don't email/DM me and ask for a copy, I select testers on my own, and much like with becoming a moderator/administrator somewhere - asking will only shrink your chances of being picked*
 
 ### How to make your server compatible with Phantasm
